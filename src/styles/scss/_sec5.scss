@@ -1,0 +1,26 @@
+.sec-5 {
+  background-color: $footer-bg-color;
+  color: $footer-fg-color;
+
+  #india {
+    font-size: 15px;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+  }
+  .footer-links-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+
+    div {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      a {
+        padding: 15px;
+        color: $footer-fg-color;
+      }
+    }
+  }
+}
